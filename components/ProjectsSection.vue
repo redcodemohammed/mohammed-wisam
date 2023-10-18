@@ -11,7 +11,7 @@
             <div class="text-3xl text-start w-full font-bold text-blue-500">Speetu landing page</div>
           </div>
         </template>
-        <img src="images/speetu.jpg" />
+        <img src="/images/speetu.jpg" />
         <p class="text-lg mt-4">A landing page for tech company specialized in making custom-tailored IT solutions.</p>
         <template #footer>
           <UButton color="blue" block icon="i-tabler-external-link" to="https://speetu.com" target="_blank">

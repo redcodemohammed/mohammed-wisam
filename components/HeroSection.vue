@@ -67,6 +67,6 @@
 
     <!-- my picture -->
     <div
-      class="bg-[url(images/no-bg-gray-scale.png)] bg-no-repeat bg-center bg-cover w-[400px] h-[400px] relative rounded-md mt-8 after:absolute after:inset-0 after:rounded-full after:opacity-5 after:bg-primary after:-z-10 before:animate-pulse2 before:absolute before:inset-0 before:rounded-full before:bg-primary before:-z-10 before:blur-3xl" />
+      class="bg-[url(/images/no-bg-gray-scale.png)] bg-no-repeat bg-center bg-cover w-[400px] h-[400px] relative rounded-md mt-8 after:absolute after:inset-0 after:rounded-full after:opacity-5 after:bg-primary after:-z-10 before:animate-pulse2 before:absolute before:inset-0 before:rounded-full before:bg-primary before:-z-10 before:blur-3xl" />
   </section>
 </template>
