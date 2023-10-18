@@ -6,7 +6,7 @@
       <div class="text-3xl">Hello, I'm</div>
       <div class="text-4xl text-primary font-bold">Mohammed Wisam</div>
       <p class="max-w-md mt-4">
-        Freelancer Fullstack developer, & UI Designer I build the right user interface your users want.
+        Freelancer fullstack developer, & UI Designer I build the right user interface your users want.
       </p>
       <!-- call to action -->
       <div id="cta" class="flex gap-4 mt-4">
