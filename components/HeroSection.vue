@@ -10,8 +10,8 @@
       </p>
       <!-- call to action -->
       <div id="cta" class="flex gap-4 mt-4">
-        <UButton icon="i-tabler-eye" href="/pdf/resume.pdf">View Resume</UButton>
-        <UButton icon="i-tabler-mail" variant="outline" href="#projects-section">Contact Me</UButton>
+        <UButton icon="i-tabler-eye" to="/pdf/resume.pdf">View Resume</UButton>
+        <UButton icon="i-tabler-mail" variant="outline" to="#projects-section">Contact Me</UButton>
       </div>
 
       <!-- social media links -->
