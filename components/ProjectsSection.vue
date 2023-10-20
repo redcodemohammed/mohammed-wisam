@@ -1,5 +1,5 @@
 <template>
-  <section id="service-section" class="pt-20 mb-20">
+  <section id="projects-section" class="pt-20 mb-20">
     <div class="text-3xl text-start w-full font-bold text-primary">Projects I built or helped building:</div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
