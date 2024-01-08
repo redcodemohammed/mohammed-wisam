@@ -1,5 +1,5 @@
 <template>
-  <Html class="select-none font-outfit overflow-x-hidden">
+  <Html class="select-none font-outfit overflow-x-hidden dark">
     <Head>
       <title>Mohammed Wisam</title>
     </Head>
