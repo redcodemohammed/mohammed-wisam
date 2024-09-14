@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   css: ['~/assets/fonts/fonts.css'],
   modules: ['@nuxtjs/google-fonts', '@nuxt/ui', 'nuxt-icon', '@vueuse/nuxt', '@nuxt/image'],
+
   googleFonts: {
     families: {
       Poppins: true,
@@ -15,7 +16,10 @@ export default defineNuxtConfig({
     fontsDir: '',
     stylePath: 'fonts.css'
   },
+
   ui: {
     global: true
-  }
+  },
+
+  compatibilityDate: '2024-09-14'
 })
