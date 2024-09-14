@@ -1,3 +1,8 @@
+<script setup lang="ts">
+useByMo();
+
+</script>
+
 <template>
   <Html class="select-none font-outfit overflow-x-hidden dark">
 
@@ -10,8 +15,7 @@
     <ServicesSection />
     <ProjectsSection />
   </UContainer>
-
-  <ByMo />
+  <Footer />
 
   </Html>
 </template>

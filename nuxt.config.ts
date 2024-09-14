@@ -16,7 +16,6 @@ export default defineNuxtConfig({
     stylePath: 'fonts.css'
   },
   ui: {
-    global: true,
-    icons: ['mdi', 'logos', 'tabler']
+    global: true
   }
 })

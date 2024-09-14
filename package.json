@@ -11,8 +11,8 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@nuxt/ui": "^2.9.0",
-    "nuxt": "^3.7.4"
+    "@nuxt/ui": "^2.18.4",
+    "nuxt": "^3.13.1"
   },
   "dependencies": {
     "@iconify-json/logos": "^1.1.37",
