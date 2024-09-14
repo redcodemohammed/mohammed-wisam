@@ -68,8 +68,7 @@
           <UIcon name="i-tabler-device-gamepad-2" class="text-6xl mx-auto"></UIcon>
           <div class="text-3xl text-start w-full font-bold text-primary">Game Development</div>
         </div>
-        <p class="text-lg"></p>
-        <p>
+        <p class="text-lg">
           You have a simple 2D game idea? let me help you bring it to life with
           <a href="https://phaser.io/" target="_blank" class="font-bold" style="color: rgb(96, 185, 188)">Phaser</a>
           or
