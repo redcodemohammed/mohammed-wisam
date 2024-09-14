@@ -10,7 +10,7 @@
       </p>
       <!-- call to action -->
       <div id="cta" class="flex gap-4 mt-4">
-        <UButton icon="i-tabler-eye" to="/pdf/resume.pdf">View Resume</UButton>
+        <UButton icon="i-tabler-eye" to="/pdf/resume.pdf" target="_blank">View Resume</UButton>
       </div>
 
       <!-- social media links -->
@@ -28,30 +28,22 @@
         <a href="https://www.instagram.com/s127x/" target="_blank" class="text-3xl text-primary hover:opacity-80">
           <UIcon name="i-tabler-brand-instagram" />
         </a>
-        <a
-          href="https://www.linkedin.com/in/redcodemohammed/"
-          target="_blank"
+        <a href="https://www.linkedin.com/in/redcodemohammed/" target="_blank"
           class="text-3xl text-primary hover:opacity-80">
           <UIcon name="i-tabler-brand-linkedin" />
         </a>
         <a href="https://codepen.io/redcodemohammed" target="_blank" class="text-3xl text-primary hover:opacity-80">
           <UIcon name="i-tabler-brand-codepen" />
         </a>
-        <a
-          href="https://www.youtube.com/@redcodemohammed"
-          target="_blank"
+        <a href="https://www.youtube.com/@redcodemohammed" target="_blank"
           class="text-3xl text-primary hover:opacity-80">
           <UIcon name="i-tabler-brand-youtube" />
         </a>
-        <a
-          href="https://discordapp.com/users/463723648851902465"
-          target="_blank"
+        <a href="https://discordapp.com/users/463723648851902465" target="_blank"
           class="text-3xl text-primary hover:opacity-80">
           <UIcon name="i-tabler-brand-discord" />
         </a>
-        <a
-          href="https://www.reddit.com/user/CharityHuman3233"
-          target="_blank"
+        <a href="https://www.reddit.com/user/CharityHuman3233" target="_blank"
           class="text-3xl text-primary hover:opacity-80">
           <UIcon name="i-tabler-brand-reddit" />
         </a>
