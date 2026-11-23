@@ -13,15 +13,12 @@ const el = ref<HTMLElement | null>(null)
 const shown = ref(false)
 const reduced = ref(false)
 
-useIntersectionObserver(
+const { stop } = useIntersectionObserver(
   el,
   ([entry]) => {
-    if (!entry) return
-    if (entry.isIntersecting) {
-      shown.value = true
-    } else if (entry.boundingClientRect.top >= window.innerHeight) {
-      shown.value = false
-    }
+    if (!entry?.isIntersecting) return
+    shown.value = true
+    stop()
   },
   { threshold: 0.2 }
 )
