@@ -1,0 +1,46 @@
+@import 'tailwindcss';
+@import '@nuxt/ui';
+
+@theme {
+  --font-display: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'Geist Mono', ui-monospace, monospace;
+
+  --color-accent-50: #fcffe8;
+  --color-accent-100: #f6ffc2;
+  --color-accent-200: #efff88;
+  --color-accent-300: #e6fb45;
+  --color-accent-400: #d8f213;
+  --color-accent-500: #bcd806;
+  --color-accent-600: #93ac02;
+  --color-accent-700: #6f8206;
+  --color-accent-800: #58670b;
+  --color-accent-900: #49560e;
+  --color-accent-950: #262f02;
+
+  --color-ink: #0a0a0b;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-ink text-neutral-200 font-display antialiased;
+}
+
+::selection {
+  background: var(--color-accent-400);
+  color: var(--color-ink);
+}
+
+.liquid-glass {
+  backdrop-filter: url(#liquid-nav) saturate(1.1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .liquid-glass {
+    backdrop-filter: none;
+  }
+}

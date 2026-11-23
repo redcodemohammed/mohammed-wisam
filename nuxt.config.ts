@@ -1,25 +1,24 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: false },
-  css: ['~/assets/fonts/fonts.css'],
-  modules: ['@nuxtjs/google-fonts', '@nuxt/ui', 'nuxt-icon', '@vueuse/nuxt', '@nuxt/image'],
+  modules: ['@nuxt/ui', '@nuxtjs/google-fonts', '@vueuse/nuxt', '@nuxt/image'],
+  ssr: false,
+  css: ['~/assets/css/main.css', '~/assets/fonts/fonts.css'],
+
+  colorMode: {
+    preference: 'dark',
+    fallback: 'dark'
+  },
 
   googleFonts: {
     families: {
-      Poppins: true,
-      Roboto: true,
-      Outfit: true,
-      Inter: true
+      'Space Grotesk': [400, 500, 600, 700],
+      'Geist Mono': [400, 500, 700]
     },
     download: true,
-    outputDir: 'assets/fonts',
+    outputDir: 'app/assets/fonts',
     fontsDir: '',
     stylePath: 'fonts.css'
   },
 
-  ui: {
-    global: true
-  },
-
-  compatibilityDate: '2024-09-14'
+  compatibilityDate: '2025-07-15'
 })
