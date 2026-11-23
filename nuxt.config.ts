@@ -20,5 +20,15 @@ export default defineNuxtConfig({
     stylePath: 'fonts.css'
   },
 
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'icon', type: 'image/png', sizes: '512x512', href: '/icon-512.png' },
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }
+      ]
+    }
+  },
+
   compatibilityDate: '2025-07-15'
 })
